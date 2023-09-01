@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(63, 63, 152);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(220, 214, 215);
+    border-radius: 10px;
+}
+
+.month-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(213, 32, 32);
+    border-radius: 10px 10px 0 0 ;
+}
+
+.month{
+    color: aliceblue;
+    font-size: 30px;
+}
