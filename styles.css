@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: rgb(63, 63, 152);
+    background-color: rgb(130, 130, 184);
     width: 100%;
     height: 100vh;
     display: flex;
@@ -14,8 +14,8 @@ body{
 }
 
 .container{
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     background-color: rgb(220, 214, 215);
     border-radius: 10px;
 }
@@ -33,4 +33,20 @@ body{
 .month{
     color: aliceblue;
     font-size: 30px;
+}
+
+.day{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+}
+
+h2{
+    color: rgb(40, 73, 102);
+}
+
+h1{
+    color: rgb(64, 3, 121);
 }
